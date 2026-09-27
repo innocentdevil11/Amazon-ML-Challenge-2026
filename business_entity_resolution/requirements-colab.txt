@@ -1,0 +1,16 @@
+# For Colab / Kaggle notebooks: numpy/pandas/scipy/scikit-learn/pyarrow/
+# torch/xgboost/joblib are already preinstalled there (usually GPU-enabled) --
+# do NOT reinstall them, it just wastes minutes reinstalling the same or an
+# incompatible version. This file adds only what's missing.
+#
+#   !pip install -q -r requirements-colab.txt
+#
+# For a GPU-accelerated FAISS on Kaggle/Colab (both ship a CUDA 12 runtime),
+# swap the faiss-cpu line below for:
+#   faiss-gpu-cu12==1.9.0.post1
+
+sentence-transformers==5.2.2
+rapidfuzz==3.14.3
+jellyfish==1.2.1
+anyascii==0.3.3
+faiss-cpu==1.15.1

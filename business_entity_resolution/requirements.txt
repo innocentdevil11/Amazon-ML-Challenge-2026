@@ -1,0 +1,27 @@
+# Pinned to what was verified locally (Python 3.12, Windows) and on
+# Colab/Kaggle-compatible versions available on PyPI as of 2026-09.
+#
+# torch is listed here for completeness but should be installed FIRST and
+# separately if you want GPU acceleration -- see README.md ("Local setup").
+# On Colab/Kaggle, torch/numpy/pandas/scipy/scikit-learn/pyarrow are already
+# preinstalled; use requirements-colab.txt there instead of this file.
+
+numpy==2.2.6
+pandas==2.3.2
+pyarrow==22.0.0
+scipy==1.16.1
+scikit-learn==1.7.1
+joblib==1.5.2
+
+torch==2.7.1
+transformers==4.52.4
+sentence-transformers==5.2.2
+
+xgboost==3.3.0
+rapidfuzz==3.14.3
+jellyfish==1.2.1
+anyascii==0.3.3
+faiss-cpu==1.15.1
+
+pytest==7.4.3
+tqdm==4.67.1

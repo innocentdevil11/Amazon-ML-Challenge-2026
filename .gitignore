@@ -1,0 +1,25 @@
+# Competition data: large, and not ours to redistribute -- teammates get it
+# from the same place you did. Keep the challenge's own docs/utils though.
+student_resource/dataset/
+
+# Python environments and caches
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+
+# Pipeline resumable cache + generated outputs (regenerate by running the pipeline)
+business_entity_resolution/cache/
+business_entity_resolution/cache_dryrun/
+business_entity_resolution/output/
+business_entity_resolution/output_dryrun/
+business_entity_resolution/dryrun_data/
+
+# Run logs / completion markers from local experiments
+business_entity_resolution/*.log
+business_entity_resolution/*.done
+
+# OS / editor / misc junk
+__MACOSX/
+.DS_Store
+.claude/
